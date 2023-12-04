@@ -173,11 +173,6 @@ Sitemap: https://www.example.com/sitemap.xml
 
 #### Optimize code
 
-- #### Asynchronous Loading:
-
-  - Implement dynamic import for asynchronous loading of resources, especially if they are not required immediately during the initial page load. This can be achieved using the `import()` function in Next.js.
-    Example: `const DynamicComponent = dynamic(() => import('./Component'), { loading: () => <p>Loading...</p> });`
-
 - #### Minification and Concatenation:
 
   - Ensure that your CSS and JavaScript files are minified and concatenated to reduce download size.
